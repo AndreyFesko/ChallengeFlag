@@ -13,7 +13,6 @@ def flag(size):
 
 def validation(size):
     """Validation. The size value must be an integer real even number."""
-    print(size)
     if not size.isdecimal() or size == '0' or int(size) % 2 != 0:
         raise Exception(AttributeError)
 
